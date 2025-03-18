@@ -329,8 +329,9 @@ margin-bottom: 40px;
     margin-left: 15px;   
 }
 .cours_description{
-    margin-left: 10px;
-    margin-bottom: 10px;   
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;   
 }
 .cours_img {
     width: 400px;  /* Fixează lățimea */
@@ -351,7 +352,7 @@ margin-bottom: 40px;
 .cours_learn_more{
     border: 1px solid #33cccc;
     padding: 3px;
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline-block;
     padding-right: 70px;
     font-size: 16px;
@@ -371,8 +372,8 @@ margin-bottom: 40px;
     margin-bottom: 20px;
 }
 .cours_price{
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     display: flex; /* Centrează imaginea dacă e necesar */
     /* justify-content: center; */
 
@@ -392,7 +393,7 @@ margin-bottom: 40px;
     font-size: 16px;
     color: #737373;
     margin-left: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex; /* Centrează imaginea dacă e necesar */
     /* justify-content: center; */
 
