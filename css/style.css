@@ -405,3 +405,113 @@ margin-bottom: 40px;
     transition: transform 0.2s ease-in-out; /*Face animația mai fluidă*/
     border: 1px ridge #0d2872;
 }
+
+
+
+
+/* Ajustare pentru ecrane mai mici (sub 1024px) */
+@media screen and (max-width: 1024px) {
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .benefit_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cours_img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Ajustare pentru telefoane (sub 768px) */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start-trial, .how-it-works {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .benefit_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Courses {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+
+    .cours_img {
+        width: 100%;
+        height: auto;
+    }
+}
