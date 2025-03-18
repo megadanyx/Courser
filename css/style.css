@@ -189,7 +189,7 @@ nav {
 }
 
 .stat p {
-	width: 130px;
+	width: 140px;
     font-size: 20px;
     color: #666;
 }
@@ -291,28 +291,36 @@ margin-bottom: 40px;
     line-height: 1.2;
     margin-bottom: 10px;
 }
-.Courses{
+.courses_section{
+    /* width: 80%; */
+    margin: 0 auto;
     max-width: 80%;
+}
+.Courses{
+    max-width: 100%;
     /* background-color: #fff; */
     margin: 0 auto;
     margin-top: 50px;
     /* box-shadow: 0px 2px 20px rgb(21,24,36,0.15993); */
     position: relative;
     color: #000000;
+    justify-content: center;
 }
 .Courses{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap:65px;
-    padding: 0 100px;
+    grid-template-columns: repeat(3, 5fr);
+    grid-column-gap:15px;
+    /* padding: 0 0px; */
     /* display: flex; */
 }
 .Cours{
-    margin-top: 20px;
+    max-width: 400px;
+    margin-top: 10px;
     background-color: #fff;
     box-shadow: 0px 3px 35px rgba(10, 18, 18, 0.507);
     /* align-content: center; */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 8%;
 
 }
 .cours_nam{
@@ -406,33 +414,17 @@ margin-bottom: 40px;
     border: 1px ridge #0d2872;
 }
 
-.join_us_form{
-    /* margin-left: 250px; */
+.courses_more {
     max-width: 80%;
-    /* background-color: #fff; */
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    /* box-shadow: 0px 2px 20px rgb(21,24,36,0.15993); */
-    position: relative;
-    color: #000000;
-    /* justify-content: center;  */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-}
-.courses_more{
-    margin-left: 250px;
-    max-width: 80%;
     height: 80px;
     position: relative;
-    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrează și pe verticală */
 }
 
 .course_more {
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    left: 40%;
     background: white;
     color: #33cccc;
     border: 2px solid rgb(126, 124, 124);
@@ -440,63 +432,57 @@ margin-bottom: 40px;
     border-radius: 5px;
     font-size: 19px;
     cursor: pointer;
+    transition: transform 0.1s ease-in-out;
 }
 
-
-
-.course_more:hover, .course_more:focus, .course_more:active{
-    /* color: rgb(22, 12, 170); */
-	/* opacity: 0.75; */
-    transform: scale(1.01); /* Mărește butonul cu 10% */
-    transition: transform 0.1s ease-in-out; /*Face animația mai fluidă*/
+.course_more:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out; /* Face animația mai fluidă */
 }
 
-.join_us_form{
-    width: 80%;
+.join_us_form {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrează conținutul pe orizontală */
+    text-align: center;
+    margin-bottom: 20px;
 }
-.join_us_form_wrap h2{
-    /* justify-content: center; */
-    width: 100%;
+
+.join_us_form_wrap h2 {
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
-    /* padding: 92px 100px 88px 40%; */
-    /* position: absolute; */
-    top:0;
-    /* margin-left: 35%; */
-    /* margin-right: 40%; */
     text-align: center;
-    /* flex-wrap: wrap; */  
+    margin-bottom: 15px;
 }
+
 .join_us_form_wrap p {
-    /* width: 80%; */
     text-align: center;
-    top:0;
-    padding-left: 20%;
-    padding-right: 20%;
     line-height: 1.2;
     margin-bottom: 20px;
+    padding: 0% 20% 0% 20%;
 }
+
 .join_us_form_form {
-    align-items: center;
-    /* max-width: 80%; */
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centrează inputurile */
     gap: 15px;
-    padding-left: 20%;
-    padding-right: 20%;
+    width: 100%;
 }
+
 .join_us_form_input {
-    width: 60%;
+    width: 35%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    
 }
 
 .join_us_form_button {
-    padding: 12px;
+    padding: 12px 20px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -504,9 +490,135 @@ margin-bottom: 40px;
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.join_us_form_button:hover {
+    background-color: #0056b3;
+}
+.footer {
+    background-color: #00103F;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer_section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer_section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section ul li {
+    margin: 5px 0;
+}
+
+.footer_section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer_section ul li a:hover {
+    color: #33cccc;
+}
+
+.contact_info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.newsletter p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden; /* Asigură colțurile rotunjite */
+    width: 100%;
+    max-width: 400px; /* Ajustează lățimea formularului */
+}
+
+.newsletter_form {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden; /* Asigură colțurile rotunjite */
+    width: 100%;
+    max-width: 400px; /* Ajustează lățimea formularului */
+}
+
+.newsletter_form input {
+    border: none;
+    padding: 2px 0px;
+    font-size: 12px;
+    flex: 1;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    height: 35px; /* Asigură o înălțime fixă */
+}
+
+.newsletter_form button {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    padding: 0 0px;
+    font-size: 12px;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    height: 35px; /* Setăm aceeași înălțime ca input-ul */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; /* Previne tăierea textului */
+}
+
+.newsletter_form button:hover {
+    background-color: #B71C1C;
 }
 
 
+
+.footer_bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
 
 /* Ajustare pentru ecrane mai mici (sub 1024px) */
 @media screen and (max-width: 1024px) {
