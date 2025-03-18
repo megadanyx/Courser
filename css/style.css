@@ -406,6 +406,105 @@ margin-bottom: 40px;
     border: 1px ridge #0d2872;
 }
 
+.join_us_form{
+    /* margin-left: 250px; */
+    max-width: 80%;
+    /* background-color: #fff; */
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* box-shadow: 0px 2px 20px rgb(21,24,36,0.15993); */
+    position: relative;
+    color: #000000;
+    /* justify-content: center;  */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.courses_more{
+    margin-left: 250px;
+    max-width: 80%;
+    height: 80px;
+    position: relative;
+    /* border: 3px solid green; */
+}
+
+.course_more {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background: white;
+    color: #33cccc;
+    border: 2px solid rgb(126, 124, 124);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+
+.course_more:hover, .course_more:focus, .course_more:active{
+    /* color: rgb(22, 12, 170); */
+	/* opacity: 0.75; */
+    transform: scale(1.01); /* Mărește butonul cu 10% */
+    transition: transform 0.1s ease-in-out; /*Face animația mai fluidă*/
+}
+
+.join_us_form{
+    width: 80%;
+}
+.join_us_form_wrap h2{
+    /* justify-content: center; */
+    width: 100%;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    /* padding: 92px 100px 88px 40%; */
+    /* position: absolute; */
+    top:0;
+    /* margin-left: 35%; */
+    /* margin-right: 40%; */
+    text-align: center;
+    /* flex-wrap: wrap; */  
+}
+.join_us_form_wrap p {
+    /* width: 80%; */
+    text-align: center;
+    top:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.join_us_form_form {
+    align-items: center;
+    /* max-width: 80%; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.join_us_form_input {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.join_us_form_button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
 
 
 
@@ -452,6 +551,8 @@ margin-bottom: 40px;
         height: auto;
     }
 }
+
+/* Ajustare pentru ecrane mai mici (sub 1024px) */
 
 /* Ajustare pentru telefoane (sub 768px) */
 @media screen and (max-width: 768px) {
@@ -515,3 +616,4 @@ margin-bottom: 40px;
         height: auto;
     }
 }
+/* Ajustare pentru telefoane (sub 768px) */
