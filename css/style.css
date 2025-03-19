@@ -158,6 +158,7 @@ nav {
     color: white;
     border: none;
     margin-left: 10px;
+    text-decoration: none;
 }
 .how-it-works {
     margin-left: 60px;
@@ -408,6 +409,7 @@ margin-bottom: 40px;
 
 .cours_details p{
     margin-right: 10px;
+    /* font-size: 14px; */
 }
 
 .Cours:hover , .Cours:focus{
@@ -435,6 +437,7 @@ margin-bottom: 40px;
     font-size: 19px;
     cursor: pointer;
     transition: transform 0.1s ease-in-out;
+    text-decoration: none;
 }
 
 .course_more:hover {
@@ -730,5 +733,8 @@ margin-bottom: 40px;
         width: 100%;
         height: auto;
     }
+    .cours_details p{
+		font-size: 14px;
+	}
 }
 /* Ajustare pentru telefoane (sub 768px) */

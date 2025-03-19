@@ -306,27 +306,6 @@ nav {
     border: 1px ridge #0d2872;
 }
 
-.courses_more {
-    max-width: 80%;
-    margin: 0 auto;
-    height: 80px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Centrează și pe verticală */
-}
-
-.course_more {
-    background: white;
-    color: #33cccc;
-    border: 2px solid rgb(126, 124, 124);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 19px;
-    cursor: pointer;
-    transition: transform 0.1s ease-in-out;
-}
-
 .course_more:hover {
     transform: scale(1.05);
     transition: transform 0.1s ease-in-out; /* Face animația mai fluidă */
@@ -563,5 +542,8 @@ nav {
         width: 100%;
         height: auto;
     }
+	.cours_details p{
+		font-size: 14px;
+	}
 }
 /* Ajustare pentru telefoane (sub 768px) */
