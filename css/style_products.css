@@ -501,8 +501,7 @@ nav {
 	}
     nav {
         flex-direction: column;
-		/* padding-top: 0px; */
-        padding: 0 auto;
+        padding: 10px;
     }
 	.nab-bar
 	{
