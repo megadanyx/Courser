@@ -66,7 +66,7 @@ nav {
 }
 
 .buttons button {
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -351,7 +351,7 @@ margin-bottom: 40px;
     display: block;
 }
 .cours_learn_more{
-    border: 1px solid #33cccc;
+    border: 1px solid rgb(126, 124, 124);
     padding: 3px;
     margin-left: 20px;
     display: inline-block;
