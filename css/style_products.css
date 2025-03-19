@@ -521,6 +521,7 @@ nav {
     .start-trial, .how-it-works {
         width: 80%;
         margin: 10px 0;
+		text-decoration: none;
     }
 
     .stats {
@@ -542,8 +543,5 @@ nav {
         width: 100%;
         height: auto;
     }
-	.cours_details p{
-		font-size: 14px;
-	}
 }
 /* Ajustare pentru telefoane (sub 768px) */

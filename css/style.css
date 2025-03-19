@@ -151,6 +151,7 @@ nav {
     font-size: 19px;
 	/* margin-right: 50px; */
     cursor: pointer;
+    text-decoration: none;
 }
 
 .start-trial {
@@ -165,6 +166,7 @@ nav {
     background: white;
     color: #0d2872;
     border: 2px solid #0d2872;
+    text-decoration: none;
 }
 
 .hero-image img {
@@ -712,6 +714,7 @@ margin-bottom: 40px;
     .start-trial, .how-it-works {
         width: 80%;
         margin: 10px 0;
+        text-decoration: none;
     }
 
     .stats {
