@@ -496,18 +496,11 @@ nav {
 
 /* Ajustare pentru telefoane (sub 768px) */
 @media screen and (max-width: 768px) {
-	body {
-		padding: 0 auto;
-	}
     nav {
         flex-direction: column;
         padding: 10px;
-    }
-	.nab-bar
-	{
-		/* background-color: #00103F; */
 		position: relative;
-	}
+    }
 
     .nav-links {
         flex-direction: column;
