@@ -499,7 +499,10 @@ nav {
     nav {
         flex-direction: column;
         padding: 10px;
-		position: relative;
+		/* position: relative; */
+    }
+	.nab-bar {
+        position: relative;
     }
 
     .nav-links {
