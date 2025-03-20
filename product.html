@@ -22,19 +22,90 @@
             </div>
         </nav>
     </header>
-    <section class="mine_product">
-        <div class="product_head">
+    <main class="mine_product">
+        <section class="product_head">
             <div class="product_img">
                 <img class="product_image" src="./img/it_cours/id_3.jpg" alt="product_image">
             </div>
             <div class="product_info">
                 <h1 class="product_name">Product Name</h1>
-                <p class="product_shor_description">Short descrption: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi.</p>
-                <p class="product_price">Pret: <strong>100$</strong></p>
-                <button class="buy">Inscriere</button>
+                <p class="product_shor_description">
+                    Short descrption: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi.
+                </p>
+                <p class="product_duration_time">Durata: <span class="duration_value">1 luni</span></p>
+                <p class="product_time">Grafic: <span class="grafic_value">Luni, Miercuri, Vineri</span></p>
+                <p class="product_old_price">Preț: <span class="old_price_value">150$</span></p>
+                <p class="product_actual_price">Preț redus: <span class="actual_price_value">100$</span></p>
+                <button class="buttn_buy">Înscriere</button>
             </div>
-        </div>
-    </section>
+            
+        </section>
+        <section class="body_product">
+            <div class="long_description">
+                <h2>Long Description</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt exercitationem, aliquam, voluptates ipsam maxime amet blanditiis maiores odit eligendi eum praesentium, assumenda soluta ex ad corporis cupiditate voluptatem excepturi.</p>
+            </div>
+            <div class="curricula_object">
+            <div class="curicula_header">
+                <h2>Programul cursului</h2>
+                
+                <div class="module">
+                    <button class="module_header">Modul 1. Introducere, Noțiuni de bază</button>
+                    <div class="module_content">
+                        <ul>
+                            <li>Apariția și dezvoltarea tehnologiilor web</li>
+                            <li>Noțiunea de server, browser, pagină și site</li>
+                            <li>Ce reprezintă domeniu și hosting</li>
+                            <li>Cum este construită o aplicație web modernă</li>
+                            <li>Ce reprezintă frontend-ul unui site</li>
+                            <li>Ce este un limbaj de marcare (ML)</li>
+                            <li>Limbaje populare de marcare la moment</li>
+                            <li>Funcțiile unui limbaj de marcare</li>
+                            <li>Tehnologiile XML, HTML, XHTML prin comparație</li>
+                            <li>Evoluția limbajului HTML, standardele actuale</li>
+                            <li>Lucrare practică</li>
+                            <li>Exemplu practic de înregistrare domeniu și hosting gratuit</li>
+                            <li>Cum public un mini site?</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="module">
+                    <button class="module_header">Modul 2. Structura documentului</button>
+                    <div class="module_content">
+                        <ul>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="module">
+                    <button class="module_header">Modul 3. Clasificarea elementelor HTML</button>
+                    <div class="module_content">
+                        <ul>
+                            <li>...</li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </div>
+                </div>
+            <script>
+                document.querySelectorAll('.module_header').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const content = button.nextElementSibling;
+                        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                    });
+                });
+            </script>
+        
+
+        </section>
+
+
+
+
+    </main>
     <footer class="footer">
         <div class="footer_container">
             <div class="footer_section contact_info">

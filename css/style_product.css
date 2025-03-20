@@ -7,20 +7,20 @@
 }
 
 body {
-	width: auto;
+    width: auto;
     background: #f8f9fa;
     color: #000;
     padding-top: 60px;
 }
 
 nav {
-	width: auto;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
     background: white;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo_home {
@@ -28,13 +28,12 @@ nav {
     font-weight: bold;
     /* color: #f8f9fa; */
     color: #33cccc;
-    
+
     text-decoration: none;
 
 }
 
-.nab-bar
-{
+.nab-bar {
     /* background-color: #00103F; */
     background-color: #0f1347;
     position: fixed;
@@ -51,18 +50,22 @@ nav {
 
 .nav-links li {
     margin: 0 15px;
-	font-size: 20px;
-	font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
 }
+
 .nav-links a {
     text-decoration: none;
     color: #f8f9fa;
     font-weight: 500px;
 
 }
-.nav-links a:hover, .nav-links a:focus, .nav-links a:active{
-	/* color: rgb(22, 12, 170); */
-	opacity: 0.75;
+
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a:active {
+    /* color: rgb(22, 12, 170); */
+    opacity: 0.75;
 }
 
 .buttons button {
@@ -89,42 +92,52 @@ nav {
 }
 
 
-.signup:hover, .signup:focus, .signup:active{
-	/* color: rgb(22, 12, 170); */
-	/* opacity: 0.75; */
+.signup:hover,
+.signup:focus,
+.signup:active {
+    /* color: rgb(22, 12, 170); */
+    /* opacity: 0.75; */
     background: #33cccc;
-    transform: scale(1.05); /* Mărește butonul cu 10% */
-    transition: transform 0.2s ease-in-out; /*Face animația mai fluidă*/
-}
-.login:hover, .login:focus, .login:active{
-	/* color: rgb(22, 12, 170); */
-	/* opacity: 0.75; */
-    background: #33cccc;
-    transform: scale(1.05); /* Mărește butonul cu 10% */
-    transition: transform 0.2s ease-in-out; /*Face animația mai fluidă*/
+    transform: scale(1.05);
+    /* Mărește butonul cu 10% */
+    transition: transform 0.2s ease-in-out;
+    /*Face animația mai fluidă*/
 }
 
-.mine_product{
+.login:hover,
+.login:focus,
+.login:active {
+    /* color: rgb(22, 12, 170); */
+    /* opacity: 0.75; */
+    background: #33cccc;
+    transform: scale(1.05);
+    /* Mărește butonul cu 10% */
+    transition: transform 0.2s ease-in-out;
+    /*Face animația mai fluidă*/
+}
+
+.mine_product {
     /* width: 80%; */
     max-width: 90%;
-	background-color: #fff;
+    background-color: #fff;
     margin: 20px auto;
     /* margin-bottom: 20px; */
-    box-shadow: 0px 2px 20px rgb(21,24,36,0.15993);
+    box-shadow: 0px 2px 20px rgb(21, 24, 36, 0.15993);
     position: relative;
     color: #000000;
-	border-radius: 2%;
+    border-radius: 2%;
 
 
 }
 
-.product_head{
+.product_head {
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-column-gap:0px; */
     padding: 20px 20px 20px 20px;
 }
-.product_img{
+
+.product_img {
     /* align-content: left; */
     width: 30vw;
     margin: 0 auto;
@@ -136,38 +149,48 @@ nav {
     /* width: 30%; */
     /* padding: 20px auto; */
 }
-.product_image{
+
+.product_image {
     /* align-content: center; */
     margin: 0 auto;
     /* position: relative; */
-    padding-left: 10%;
-    max-width: 450px;
-    max-height: 340px;
+    /* margin-left: 10%; */
+
+    max-width: 500px;
+    max-height: 430px;
     /* width: 30%; */
-    /* padding: 20px auto; */
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    border: 2px solid #000;
+
 }
-.product_info{
+
+.product_info {
     width: 70vw;
     padding: 20px;
     /* margin: 20px; */
     /* border: 1px solid #000; */
     /* border-radius: 10px; */
 }
-.product_name{
+
+.product_name {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
-.product_shor_description{
+
+.product_shor_description {
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
-.product_price{
+
+.product_price {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.product_info button{
+
+.product_info button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -175,6 +198,144 @@ nav {
     font-size: 95%;
     background: #3bbebe;
     border-radius: 5px;
+}
+
+.body_product {
+    display:grid;
+    padding: 20px 20px 20px 20px;
+    /* margin: 20px auto; */
+    /* margin: 20px; */
+    /* border: 1px solid #000; */
+    /* border-radius: 10px; */
+}
+
+.long_description {
+    /* font-size: 20px; */
+    margin-bottom: 20px;
+    padding: 15px 10px 15px 10px;
+}
+
+.long_description p {
+    /* font-size: 20px; */
+    padding: 15px 10px 15px 10px;
+}
+
+.long_description h2 {
+    /* font-size: 20px; */
+    padding: 15px 10px 15px 10px;
+}
+.product_info > * {
+    padding: 10px;
+}
+.actual_price_value {
+    font-size: large;
+    color: #33cccc;
+    font-weight: bold;
+}
+.product_actual_price{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.product_duration_time, .product_time {
+    font-weight: bold;
+}
+
+.product_duration_time .duration_value {
+    font-weight: normal;
+}
+.product_time .grafic_value {
+    font-weight: normal;
+}
+.product_old_price{
+    font-weight: bold;
+}
+.product_old_price .old_price_value {
+    text-decoration: line-through;
+    color: #ff0000;
+    font-weight: normal;
+}
+
+/* .product_duration_time, .product_time, .product_old_price { */
+    /* all: unset; */
+    /* font-weight: bold; */
+    /* margin-bottom: 20px; */
+/* } */
+.buttn_buy button{
+    background-color: #33cccc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 11px;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    height: 35px;
+    /* Setăm aceeași înălțime ca input-ul */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    /* margin: 20px 20px 20px 20px; */
+    /* Previne tăierea textului */
+}
+
+.curricula_object{
+    margin-bottom: 20px;
+    padding: 15px 10px 15px 10px;
+
+}
+
+.curicula_header {
+    /* align-items: left; */
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.curicula_header h2{
+    margin-bottom: 10px;
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.module {
+    margin-bottom: 10px;
+}
+
+.module_header {
+    width: 100%;
+    background: #ddd;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.module_header:hover {
+    background: #ccc;
+}
+
+.module_content {
+    display: none;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 3px solid #888;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
 }
 
 .footer {
@@ -247,9 +408,11 @@ nav {
     align-items: center;
     background: white;
     border-radius: 25px;
-    overflow: hidden; /* Asigură colțurile rotunjite */
+    overflow: hidden;
+    /* Asigură colțurile rotunjite */
     width: 100%;
-    max-width: 400px; /* Ajustează lățimea formularului */
+    max-width: 400px;
+    /* Ajustează lățimea formularului */
 }
 
 .newsletter_form {
@@ -257,9 +420,11 @@ nav {
     align-items: center;
     background: white;
     border-radius: 25px;
-    overflow: hidden; /* Asigură colțurile rotunjite */
+    overflow: hidden;
+    /* Asigură colțurile rotunjite */
     width: 100%;
-    max-width: 400px; /* Ajustează lățimea formularului */
+    max-width: 400px;
+    /* Ajustează lățimea formularului */
 }
 
 .newsletter_form input {
@@ -269,7 +434,8 @@ nav {
     flex: 1;
     outline: none;
     border-radius: 25px 0 0 25px;
-    height: 35px; /* Asigură o înălțime fixă */
+    height: 35px;
+    /* Asigură o înălțime fixă */
 }
 
 .newsletter_form button {
@@ -281,11 +447,13 @@ nav {
     border-radius: 25px 25px 25px 25px;
     cursor: pointer;
     transition: background 0.3s ease;
-    height: 35px; /* Setăm aceeași înălțime ca input-ul */
+    height: 35px;
+    /* Setăm aceeași înălțime ca input-ul */
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap; /* Previne tăierea textului */
+    white-space: nowrap;
+    /* Previne tăierea textului */
 }
 
 .newsletter_form button:hover {
@@ -304,7 +472,7 @@ nav {
 
 /* Ajustare pentru ecrane mai mici (sub 1024px) */
 @media screen and (max-width: 1024px) {
-   .Courses {
+    .Courses {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -318,15 +486,17 @@ nav {
 
 /* Ajustare pentru telefoane (sub 768px) */
 @media screen and (max-width: 768px) {
-	body{
-		padding: 0px;
-	}
+    body {
+        padding: 0px;
+    }
+
     nav {
         flex-direction: column;
         padding: 10px;
-		/* position: relative; */
+        /* position: relative; */
     }
-	.nab-bar {
+
+    .nab-bar {
         position: relative;
     }
 
@@ -346,4 +516,5 @@ nav {
         margin-top: 10px;
     }
 }
+
 /* Ajustare pentru telefoane (sub 768px) */
