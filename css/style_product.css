@@ -338,6 +338,144 @@ ul li {
     margin-bottom: 5px;
 }
 
+.benefits{
+    margin-bottom: 40px;
+    }
+    
+    .benefit__wrap{
+        /* margin-left: 250px; */
+        max-width: 80%;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: 0px 2px 20px rgb(21,24,36,0.15993);
+        position: relative;
+        color: #000000;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+    .benefit_title{
+        width: 100%;
+        font-weight: 100;
+        font-size: 35px;
+        line-height: 42px;
+        padding: 50px 50px 50px 50px;
+        /* position: absolute; */
+        top:0;
+        left:0;
+        /* flex-wrap: wrap; */
+        
+    }
+    .benefit_cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap:65px;
+        padding: 0 100px;
+        /* display: flex; */
+    }
+    .card_benefit_cards_pic{
+       width: 100%;
+       height: 320px;
+        /* margin: 0 auto; */
+        object-fit: cover; /*Opțional, ajustează imaginea pentru a evita deformarea*/
+        display: block;
+    }
+    .card_img{
+        /* max-width: 250px; */
+        width: 100%;
+        height: 320px;
+        margin-bottom: 35px;
+        /* margin: 0 auto; */
+        object-fit: cover; 
+        display: block;
+        border-radius: 50px;
+    }
+    .benefit_cards_titles{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 26px;
+    }
+    .benefits_card_desc{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 39px;
+    }
+    .benefits_card_more{
+        display: inline-block;
+        padding-right: 70px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #33cccc;
+        text-decoration: none;
+        background: url(../img/right-arrow.png) no-repeat 95% center;
+        background-size: 40px 30px;
+        transition:  .2 all;
+    }
+    .benefits_card_more:hover, .benefits_card_more:focus{
+        background: url(../img/right-arrow.png) no-repeat right center;
+        background-size: 40px 30px;
+    }
+    .benefit_card{
+        margin-bottom: 112px;
+    }
+.join_us_form {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrează conținutul pe orizontală */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join_us_form_wrap h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.join_us_form_wrap p {
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding: 0% 20% 0% 20%;
+}
+
+.join_us_form_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrează inputurile */
+    gap: 15px;
+    width: 100%;
+}
+
+.join_us_form_input {
+    width: 35%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.join_us_form_button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.join_us_form_button:hover {
+    background-color: #0056b3;
+}
+
 .footer {
     background-color: #00103F;
     /* background-color: #00103F; */
